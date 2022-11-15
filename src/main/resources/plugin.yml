@@ -1,0 +1,13 @@
+main: link.ryhn.tabmoji.TabMoji
+name: TabMoji
+version: 0.1
+api-version: 1.19
+depend:
+  - ProtocolLib
+commands:
+  emojis:
+    description: List all emojis
+    ussage: /<command>
+  reloademojis:
+    description: Reload config.yml with emoji list
+    ussage: /<command>
